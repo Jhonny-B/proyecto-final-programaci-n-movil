@@ -19,6 +19,6 @@ Frases.js: Muestra una lista de frases motivacionales.
 
 Tecnologías Usadas: 
 
-React
-React Router
+React,
+React Router,
 Ejecución del Proyecto
