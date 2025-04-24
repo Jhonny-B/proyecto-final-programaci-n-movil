@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #f8f8f8; /* Un color de fondo claro */
+  padding: 15px 20px; /* Espaciado interno arriba/abajo y a los lados */
+  display: flex; /* Para alinear los elementos horizontalmente */
+  justify-content: flex-start; /* Alinea los enlaces al inicio */
+  border-bottom: 1px solid #eee; /* Una línea sutil en la parte inferior */
+}
+
+.nav-link {
+  color: #333; /* Color del texto de los enlaces */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  margin-right: 20px; /* Espacio entre los enlaces */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 16px; /* Tamaño de la fuente */
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilo para el primer enlace (Inicio) para que se destaque un poco */
+.nav-link:first-child {
+  margin-right: 30px; /* Más espacio después del inicio */
+}
+
+/* Opcional: Estilo para indicar el enlace activo */
+.nav-link.active {
+  color: #28a745; /* Un color para el enlace activo */
+}
+
+
+
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*/

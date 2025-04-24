@@ -1,0 +1,38 @@
+.app-container {
+    font-family: sans-serif;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .home-page,
+  .videos-page,
+  .documents-page,
+  .amino-phrases-page {
+    margin-top: 20px;
+  }
+  
+  .home-page h1 {
+    color: #333;
+  }
+  
+  .videos-page h2,
+  .documents-page h2,
+  .amino-phrases-page h2 {
+    color: #555;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .amino-phrases-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .amino-phrases-page li {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #777;
+  }
